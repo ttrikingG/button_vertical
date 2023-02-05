@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button_horizontal</title>
+</head>
+<style>
+   .menu-f{/* menu vertical*/
+    align-items: center;
+    margin-top: 2%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px; 
+}
+
+    .f1{/*BOTÃO 1*/
+        font-family: HIROMISAKE;
+        font-size:x-large;
+        border:none;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background .3s;
+        border-radius: 5px;
+        /*background-image: url(../img);só colocar uma imagem png*/
+        width: 600px;
+        height: 60px;
+        box-shadow: 5px 5px 10px #000;  
+    }
+
+    .f1:hover{
+        transform: scale(1.03);
+        background-color: rgb(255, 8, 0) ;
+        color:rgb(255, 255, 255);
+    }
+
+    .f1:active{
+        background-color: rgb(150, 22, 6) ;
+        color:rgb(255, 8, 0);
+    }    
+</style>
+<body>
+    <div class="menu-f">
+        <button class="f1">About-me</button>
+    </div>
+</body>
+</html>
